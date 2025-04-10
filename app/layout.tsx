@@ -4,7 +4,7 @@ import { Footer } from '@/components/footer'
 import { TopBar } from '@/components/top-bar'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
+  title: 'Balaji Honda',
   description: 'Created with v0',
   generator: 'v0.dev',
 }
