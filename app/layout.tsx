@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: 'Balaji Honda',
   description: 'Created with v0',
   generator: 'v0.dev',
+  icons: {
+    icon: '/favicon.ico', // relative to public folder
+  },
 }
 
 export default function RootLayout({

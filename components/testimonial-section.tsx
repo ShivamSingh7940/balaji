@@ -12,7 +12,7 @@ const testimonials = [
     car: "Honda City",
     image: "/placeholder.svg?height=80&width=80",
     rating: 5,
-    text: "I've been a Honda customer for years, but my experience with Capital Honda was exceptional. The team was professional, knowledgeable and made the entire buying process smooth. My new City is fantastic!",
+    text: "I've been a Honda customer for years, but my experience with Balaji Honda was exceptional. The team was professional, knowledgeable and made the entire buying process smooth. My new City is fantastic!",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const testimonials = [
     car: "Honda Amaze",
     image: "/placeholder.svg?height=80&width=80",
     rating: 5,
-    text: "The service at Capital Honda is outstanding. From test drive to delivery, everything was handled with care. I'm extremely satisfied with my Amaze and the after-sales support is excellent.",
+    text: "The service at Balaji Honda is outstanding. From test drive to delivery, everything was handled with care. I'm extremely satisfied with my Amaze and the after-sales support is excellent.",
   },
   {
     id: 3,
@@ -50,7 +50,7 @@ export function TestimonialSection() {
           <h4 className="text-red-600 font-medium mb-2">TESTIMONIALS</h4>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Customers Say</h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            Hear from our satisfied customers about their experience with Capital Honda and why they choose us for their
+            Hear from our satisfied customers about their experience with Balaji Honda and why they choose us for their
             automotive needs.
           </p>
         </div>

@@ -50,7 +50,7 @@ export function BookTestDriveForm() {
           </div>
           <h3 className="text-xl font-bold text-green-600 mb-2">Test Drive Booked!</h3>
           <p className="text-gray-600">
-            Thank you for booking a test drive with Capital Honda. Our representative will contact you shortly to
+            Thank you for booking a test drive with Balaji Honda. Our representative will contact you shortly to
             confirm the details.
           </p>
         </div>

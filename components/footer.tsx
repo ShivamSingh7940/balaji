@@ -26,7 +26,7 @@ export function Footer() {
                 <span className="text-red-500">Honda</span>
               </h3>
               <p className="text-slate-300 mb-6">
-                Capital Honda is an authorized Honda dealership offering new cars, service, spare parts, and accessories
+                Balaji Honda is an authorized Honda dealership offering new cars, service, spare parts, and accessories
                 with a customer-first approach.
               </p>
               {/* <div className="flex gap-4">

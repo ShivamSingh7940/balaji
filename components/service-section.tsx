@@ -9,7 +9,7 @@ export function ServiceSection() {
           <h4 className="text-red-600 font-medium mb-2">OUR SERVICES</h4>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Complete Honda Care</h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            At Capital Honda, we offer comprehensive services to ensure your Honda runs at its best. Our factory-trained
+            At Balaji Honda, we offer comprehensive services to ensure your Honda runs at its best. Our factory-trained
             technicians use genuine Honda parts for all services and repairs.
           </p>
         </div>

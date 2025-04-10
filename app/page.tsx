@@ -28,7 +28,7 @@ export default function Home() {
             <div className="text-white space-y-4">
               <h2 className="text-3xl md:text-4xl font-bold">Book A Test Drive</h2>
               <p className="text-lg opacity-90">
-                Experience the thrill of driving a Honda. Book a test drive at Capital Honda today.
+                Experience the thrill of driving a Honda. Book a test drive at Balaji Honda today.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
@@ -60,7 +60,7 @@ export default function Home() {
             <div>
               <Image
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxoNY2QHgZtj41_cheyuB63SSKjeVcI0XirvPIH7Es2Rn5NJ-Imq5HBPYn3IVX21PlfJPy&s"
-                alt="Capital Honda Showroom"
+                alt="Balaji Honda Showroom"
                 width={600}
                 height={400}
                 className="rounded-lg object-cover"
@@ -69,10 +69,10 @@ export default function Home() {
             <div className="space-y-6">
               <div>
                 <h4 className="text-red-600 font-medium mb-2">ABOUT US</h4>
-                <h2 className="text-3xl md:text-4xl font-bold mb-6">Welcome to Capital Honda</h2>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">Welcome to Balaji Honda</h2>
               </div>
               <p className="text-gray-600">
-                Capital Honda is a premier Honda dealership with state-of-the-art facilities offering sales, service,
+                Balaji Honda is a premier Honda dealership with state-of-the-art facilities offering sales, service,
                 and genuine Honda parts. We are committed to providing an exceptional ownership experience with customer
                 satisfaction as our primary goal.
               </p>
