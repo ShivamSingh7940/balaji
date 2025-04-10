@@ -28,7 +28,7 @@ const testimonials = [
     car: "Honda Elevate",
     image: "/placeholder.svg?height=80&width=80",
     rating: 4,
-    text: "Capital Honda made buying my first SUV a memorable experience. The staff was patient in explaining all features and helped me choose the right variant of Elevate that suits my needs and budget.",
+    text: "Balaji Honda made buying my first SUV a memorable experience. The staff was patient in explaining all features and helped me choose the right variant of Elevate that suits my needs and budget.",
   },
 ]
 
