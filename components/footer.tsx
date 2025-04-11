@@ -127,7 +127,7 @@ District: Vellore
       <div className="bg-black text-white py-4">
         <div className="max-w-screen-xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-slate-400 text-sm">© 2025 Balaji Honda. All rights reserved.</p>
+            <p className="text-slate-400 text-sm">Balaji Auto Care Private Limited © 2025.</p>
             <div className="flex gap-4 text-sm">
               {[
                 { href: "/privacy", label: "Privacy Policy" },
