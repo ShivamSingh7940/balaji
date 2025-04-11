@@ -59,7 +59,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <Image
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxoNY2QHgZtj41_cheyuB63SSKjeVcI0XirvPIH7Es2Rn5NJ-Imq5HBPYn3IVX21PlfJPy&s"
+                src="https://capitalhonda.in/assets/front/images/elevate.png"
                 alt="Balaji Honda Showroom"
                 width={600}
                 height={400}

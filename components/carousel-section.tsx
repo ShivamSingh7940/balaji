@@ -7,19 +7,19 @@ import { Button } from "@/components/ui/button"
 
 const slides = [
   {
-    image: "https://capitalhonda.in/uploads/common/20250502173876120667a363f63a96c.jpg",
+    image: "https://capitalhonda.in/uploads/common/20250502173876130267a3645664bca.jpg",
     title: "Discover the All-New Honda City",
     subtitle: "Elegance, Power and Technology",
     // cta: "Book Test Drive",
   },
   {
-    image: "https://capitalhonda.in/uploads/common/20250502173876130267a3645664bca.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4ebC2yIsg2m8o7cEZTfrcBG0QvvER3RZw1g&s",
     title: "Honda Amaze",
     subtitle: "Drive in Comfort and Style",
     // cta: "Explore Now",
   },
   {
-    image: "https://capitalhonda.in/uploads/common/20240412173330839767502fedb25d1.jpg",
+    image: "https://capitalhonda.in/uploads/common/20250502173876123267a364102fad9.jpg",
     title: "Honda Elevate",
     subtitle: "Bold, Versatile SUV for Every Journey",
     // cta: "Learn More",

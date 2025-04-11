@@ -17,7 +17,7 @@ const About = () => {
       <section className="relative">
         <div className="w-full h-[300px] bg-gray-800 overflow-hidden">
           <img 
-            src="https://images.unsplash.com/photo-1636915860623-57b9b74133e6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG9uZGElMjBjaXZpY3xlbnwwfHwwfHx8MA%3D%3D" 
+            src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQJ49ovJpeIwGZOW3diVPLeIHjvDmTGWj2q-UKFOMcQjwcD1LXE" 
             alt="Honda Dealership" 
             className="w-full h-full object-cover object-center opacity-80"
           />
@@ -27,7 +27,7 @@ const About = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-xl">
               <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">About Balaji Honda</h1>
-              <p className="text-lg text-white">Your trusted Honda dealership since 1998</p>
+              <p className="text-lg text-white">Your trusted Honda dealership</p>
             </div>
           </div>
         </div>
