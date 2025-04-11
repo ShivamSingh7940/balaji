@@ -86,11 +86,11 @@ const page = () => {
           required
         >
           <option value="">-- Choose Vehicle --</option>
-          <option value="Honda City">Honda City</option>
-          <option value="Honda Amaze">Honda Amaze</option>
-          <option value="Honda Elevate">Honda Elevate</option>
-          <option value="Honda WR-V">Honda WR-V</option>
-          <option value="Honda Jazz">Honda Jazz</option>
+          <option value="Honda City">All New Amaze</option>
+          <option value="Honda Amaze">All New Elevate</option>
+          <option value="Honda Elevate">City 5-Gen</option>
+          <option value="Honda WR-V">Amaze-2nd Gen</option>
+          <option value="Honda Jazz">City e:HEV</option>
         </select>
       </div>
 
@@ -132,12 +132,13 @@ const page = () => {
         />
       </div>
 
-      <button
-        type="submit"
-        className="bg-[#E10A17] text-white px-6 py-3 rounded-md hover:bg-[#c10913] transition"
-      >
-        Book Test Drive
-      </button>
+      <a
+  href="mailto:sm@balajihonda.in?subject=Test Drive Booking&body=Hi, I would like to book a test drive for [Vehicle Name]."
+  className="bg-[#E10A17] text-white px-6 py-3 rounded-md hover:bg-[#c10913] transition inline-block"
+>
+  Book Test Drive
+</a>
+
     </form>
 
     {/* Image + Info */}

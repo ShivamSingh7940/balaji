@@ -55,26 +55,20 @@ export function TopBar() {
             {/* Vehicles Dropdown */}
             <div className="relative group">
               <Link href="/vehicles" className={`font-montserrat ${pathname.startsWith('/vehicles') ? 'text-[#E10A17]' : 'text-black'} hover:text-[#E10A17] font-medium transition-all flex items-center`}>
-                Vehicles <span className="ml-1">▼</span>
+                Vehicles 
               </Link>
               <div className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md hidden group-hover:block z-10">
-                <Link href="/vehicles?category=new" className="block px-4 py-2 text-sm hover:bg-gray-100">New Cars</Link>
+                {/* <Link href="/vehicles?category=new" className="block px-4 py-2 text-sm hover:bg-gray-100">New Cars</Link>
                 <Link href="/vehicles?category=used" className="block px-4 py-2 text-sm hover:bg-gray-100">Used Cars</Link>
-                <Link href="/vehicles?category=upcoming" className="block px-4 py-2 text-sm hover:bg-gray-100">Upcoming Models</Link>
+                <Link href="/vehicles?category=upcoming" className="block px-4 py-2 text-sm hover:bg-gray-100">Upcoming Models</Link> */}
               </div>
             </div>
 
             {/* Services Dropdown */}
             <div className="relative group">
               <Link href="/services" className={`font-montserrat ${pathname.startsWith('/services') ? 'text-[#E10A17]' : 'text-black'} hover:text-[#E10A17] font-medium transition-all flex items-center`}>
-                Services <span className="ml-1">▼</span>
+                Services 
               </Link>
-              <div className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md hidden group-hover:block z-10">
-                <Link href="/services/maintenance" className="block px-4 py-2 text-sm hover:bg-gray-100">Maintenance</Link>
-                <Link href="/services/repair" className="block px-4 py-2 text-sm hover:bg-gray-100">Repairs</Link>
-                <Link href="/services/bodyshop" className="block px-4 py-2 text-sm hover:bg-gray-100">Body Shop</Link>
-                <Link href="/services/genuine-parts" className="block px-4 py-2 text-sm hover:bg-gray-100">Genuine Parts</Link>
-              </div>
             </div>
 
             <Link href="/contact" className={`font-montserrat ${pathname === '/contact' ? 'text-[#E10A17]' : 'text-black'} hover:text-[#E10A17] font-medium transition-all`}>Contact</Link>
