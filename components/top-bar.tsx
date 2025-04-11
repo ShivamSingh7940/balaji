@@ -57,11 +57,6 @@ export function TopBar() {
               <Link href="/vehicles" className={`font-montserrat ${pathname.startsWith('/vehicles') ? 'text-[#E10A17]' : 'text-black'} hover:text-[#E10A17] font-medium transition-all flex items-center`}>
                 Vehicles 
               </Link>
-              {/* <div className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md hidden group-hover:block z-10"> */}
-                {/* <Link href="/vehicles?category=new" className="block px-4 py-2 text-sm hover:bg-gray-100">New Cars</Link>
-                <Link href="/vehicles?category=used" className="block px-4 py-2 text-sm hover:bg-gray-100">Used Cars</Link>
-                <Link href="/vehicles?category=upcoming" className="block px-4 py-2 text-sm hover:bg-gray-100">Upcoming Models</Link> */}
-              {/* </div> */}
             </div>
 
             {/* Services Dropdown */}
@@ -82,20 +77,21 @@ export function TopBar() {
 
         {/* Mobile Menu Content */}
         {isMenuOpen && (
-          <div className="md:hidden px-4 pb-4 flex flex-col space-y-4 bg-white text-black">
-            <Link href="/" className={`font-montserrat ${pathname === '/' ? 'text-[#E10A17]' : ''}`}>Home</Link>
-            <Link href="/about" className={`font-montserrat ${pathname === '/about' ? 'text-[#E10A17]' : ''}`}>About Us</Link>
-            {/* <Link href="/vehicles?category=new">New Cars</Link>
-            <Link href="/vehicles?category=used">Used Cars</Link>
-            <Link href="/vehicles?category=upcoming">Upcoming Models</Link>
-            <Link href="/services/maintenance">Maintenance</Link>
-            <Link href="/services/repair">Repairs</Link>
-            <Link href="/services/bodyshop">Body Shop</Link>
-            <Link href="/services/genuine-parts">Genuine Parts</Link> */}
-            <Link href="/contact" className={`font-montserrat ${pathname === '/contact' ? 'text-[#E10A17]' : ''}`}>Contact</Link>
-            <Link href="/book-test-drive" className="bg-[#E10A17] text-white text-center py-2 rounded-md font-medium">Book Test Drive</Link>
-          </div>
-        )}
+  <div className="md:hidden px-4 pb-4 flex flex-col space-y-4 bg-white text-black">
+    <Link href="/" className={`font-montserrat ${pathname === '/' ? 'text-[#E10A17]' : ''}`}>Home</Link>
+    <Link href="/about" className={`font-montserrat ${pathname === '/about' ? 'text-[#E10A17]' : ''}`}>About Us</Link>
+    <Link href="/vehicles" className={`font-montserrat ${pathname === '/vehicles' ? 'text-[#E10A17]' : ''}`}>Vehicles</Link>
+    <Link href="/services" className={`font-montserrat ${pathname === '/services' ? 'text-[#E10A17]' : ''}`}>Services</Link>
+    <Link href="/contact" className={`font-montserrat ${pathname === '/contact' ? 'text-[#E10A17]' : ''}`}>Contact</Link>
+    <Link
+      href="/book-test-drive"
+      className="bg-[#E10A17] text-white text-center py-2 rounded-md font-medium"
+    >
+      Book Test Drive
+    </Link>
+  </div>
+)}
+
       </div>
     </div>
   )
