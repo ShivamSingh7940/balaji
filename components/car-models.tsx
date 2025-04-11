@@ -24,7 +24,7 @@ const carModels = [
   {
     id: "amaze",
     name: "Amaze -2nd Gen",
-    image: "https://capitalhonda.in/uploads/common/20212009163214517161488f13cb79d.png",
+    image: "https://res.cloudinary.com/djy15bn9n/image/upload/v1744371026/WhatsApp_Image_2025-04-11_at_5.00.12_PM_iu5xzd.jpg",
     // description: "Comfortable and stylish compact sedan for the family",
   },
   {

@@ -130,9 +130,9 @@ District: Vellore
             <p className="text-slate-400 text-sm">Balaji Auto Care Private Limited © 2025.</p>
             <div className="flex gap-4 text-sm">
               {[
-                { href: "/privacy", label: "Privacy Policy" },
+                // { href: "/privacy", label: "Privacy Policy" },
                 { href: "/terms", label: "Terms of Service" },
-                { href: "/sitemap", label: "Sitemap" },
+                // { href: "/sitemap", label: "Sitemap" },
               ].map(({ href, label }) => (
                 <Link key={href} href={href} className="text-slate-400 hover:text-white">
                   {label}
