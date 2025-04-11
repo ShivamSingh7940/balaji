@@ -11,10 +11,10 @@ const Page = () => {
 
   const categories = [
     { id: "all", label: "All Services" },
-    { id: "maintenance", label: "Maintenance" },
-    { id: "repairs", label: "Repairs" },
-    { id: "bodyshop", label: "Body Shop" },
-    { id: "parts", label: "Genuine Parts" },
+    // { id: "maintenance", label: "Maintenance" },
+    // { id: "repairs", label: "Repairs" },
+    // { id: "bodyshop", label: "Body Shop" },
+    // { id: "parts", label: "Genuine Parts" },
   ];
 
   const sampleServices = [
