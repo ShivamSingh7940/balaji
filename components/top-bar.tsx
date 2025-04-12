@@ -18,7 +18,7 @@ export function TopBar() {
         <div className="flex items-center flex-wrap justify-center md:justify-start gap-4 md:gap-6 mb-2 md:mb-0">
           <div className="flex items-center gap-2">
             <Phone className="h-4 w-4 text-white" />
-            <span>+91 98406 12345</span>
+            <span>+91 9444068666</span>
           </div>
           <div className="hidden md:flex items-center gap-2">
             <Mail className="h-4 w-4 text-white" />

@@ -70,7 +70,7 @@ export function Footer() {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <Phone className="h-5 w-5 text-red-500 shrink-0" />
-                  <span className="text-slate-300">+91 9840612345</span>
+                  <span className="text-slate-300">+91 9444068666</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Mail className="h-5 w-5 text-red-500 shrink-0" />
@@ -127,10 +127,10 @@ District: Vellore
       <div className="bg-black text-white py-4">
         <div className="max-w-screen-xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-slate-400 text-sm">Balaji Auto Care Private Limited © 2025.</p>
+            <p className="text-slate-400 text-sm">©️ 2025 Balaji Auto Care Private Limited: All rights reserved.</p>
             <div className="flex gap-4 text-sm">
               {[
-                // { href: "/privacy", label: "Privacy Policy" },
+                { href: "/privacy", label: "Privacy Policy" },
                 { href: "/terms", label: "Terms of Service" },
                 // { href: "/sitemap", label: "Sitemap" },
               ].map(({ href, label }) => (
