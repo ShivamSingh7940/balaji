@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const getCategoryTitle = (category) => {
   switch (category) {
-    case 'service': return 'Service & Maintenance';
+    case 'service': return 'Services';
     case 'sales': return 'Vehicle Sales';
     default: return 'Welcome to Honda';
   }

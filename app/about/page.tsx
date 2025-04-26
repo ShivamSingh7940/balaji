@@ -59,9 +59,9 @@ const About = () => {
     </p>
 
     <div className="flex items-start mb-6">
-      <div className="w-12 h-12 bg-[#E10A17] rounded-full flex items-center justify-center text-white mr-4">
+      {/* <div className="w-12 h-12 bg-[#E10A17] rounded-full flex items-center justify-center text-white mr-4">
         <i className="fas fa-eye"></i>
-      </div>
+      </div> */}
       <div>
         <h4 className="font-bold text-lg">Our Vision</h4>
         <p className="text-gray-600">To be the most trusted and preferred automotive destination in the region.</p>
@@ -69,9 +69,9 @@ const About = () => {
     </div>
 
     <div className="flex items-start">
-      <div className="w-12 h-12 bg-[#E10A17] rounded-full flex items-center justify-center text-white mr-4">
+      {/* <div className="w-12 h-12 bg-[#E10A17] rounded-full flex items-center justify-center text-white mr-4">
         <i className="fas fa-bullseye"></i>
-      </div>
+      </div> */}
       <div>
         <h4 className="font-bold text-lg">Our Mission</h4>
         <p className="text-gray-600">To provide exceptional automotive solutions that exceed customer expectations through quality products, honest service, and continuous innovation.</p>

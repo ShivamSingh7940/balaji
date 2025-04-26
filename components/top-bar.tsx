@@ -65,6 +65,10 @@ export function TopBar() {
                 Services 
               </Link>
             </div>
+            <Link href="/branches" className={`font-montserrat ${pathname.startsWith('/services') ? 'text-[#E10A17]' : 'text-black'} hover:text-[#E10A17] font-medium transition-all flex items-center`}>
+                Branches
+              </Link>
+            
 
             <Link href="/contact" className={`font-montserrat ${pathname === '/contact' ? 'text-[#E10A17]' : 'text-black'} hover:text-[#E10A17] font-medium transition-all`}>Contact</Link>
           </nav>
